@@ -1,0 +1,25 @@
+{
+  "name": "samwise-running-app",
+  "version": "1.0.0",
+  "description": "A running companion app that plays encouraging voice messages from friends at specific distance markers",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "build": "cd backend && npm install",
+    "postinstall": "cd backend && npm install"
+  },
+  "keywords": [
+    "running",
+    "voice-messages",
+    "gps",
+    "encouragement",
+    "fitness"
+  ],
+  "author": "Sean Reibeling",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
