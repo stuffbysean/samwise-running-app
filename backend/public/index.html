@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Your Runner - Samwise</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-running"></i>
+                <h1>Samwise</h1>
+            </div>
+            <p class="tagline">Support your runner with an encouraging voice message</p>
+        </header>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading run details...</p>
+        </div>
+
+        <div id="error" class="error hidden">
+            <i class="fas fa-exclamation-triangle"></i>
+            <h2>Oops! Something went wrong</h2>
+            <p id="error-message"></p>
+        </div>
+
+        <div id="main-content" class="hidden">
+            <!-- Run Information -->
+            <section class="run-info">
+                <h2 id="run-title">Morning 5K Run</h2>
+                <div class="run-details">
+                    <div class="detail-item">
+                        <i class="fas fa-route"></i>
+                        <span id="run-distance">5.0 km</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span id="run-date">Today</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-comment"></i>
+                        <span id="message-count">0 messages</span>
+                    </div>
+                </div>
+                <div class="run-status">
+                    <span id="run-status-badge" class="status-badge status-created">Ready for Messages</span>
+                </div>
+            </section>
+
+            <!-- Existing Messages -->
+            <section id="existing-messages" class="existing-messages hidden">
+                <h3>
+                    <i class="fas fa-messages"></i>
+                    Messages from Friends
+                </h3>
+                <div id="messages-list" class="messages-list">
+                    <!-- Messages will be populated here -->
+                </div>
+            </section>
+
+            <!-- Message Recording Form -->
+            <section class="recording-section">
+                <h3>
+                    <i class="fas fa-microphone"></i>
+                    Record Your Message
+                </h3>
+                
+                <form id="message-form" class="message-form">
+                    <div class="form-group">
+                        <label for="sender-name">Your Name</label>
+                        <input type="text" id="sender-name" name="senderName" required 
+                               placeholder="Enter your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="distance-marker">Distance Marker (km)</label>
+                        <input type="number" id="distance-marker" name="distanceMarker" 
+                               step="0.1" min="0.1" required 
+                               placeholder="e.g., 2.5">
+                        <small class="help-text">When during the run should your message play?</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-text">Backup Message (Optional)</label>
+                        <textarea id="message-text" name="message" rows="3" 
+                                placeholder="Write an encouraging message as backup (used if audio fails)"></textarea>
+                    </div>
+
+                    <!-- Audio Recording Controls -->
+                    <div class="audio-controls">
+                        <div class="recording-status">
+                            <div id="recording-indicator" class="recording-indicator">
+                                <div class="pulse-circle"></div>
+                                <span id="recording-text">Ready to record</span>
+                            </div>
+                            <div id="recording-timer" class="recording-timer hidden">0:00</div>
+                        </div>
+
+                        <div class="control-buttons">
+                            <button type="button" id="record-btn" class="btn btn-record">
+                                <i class="fas fa-microphone"></i>
+                                Start Recording
+                            </button>
+                            <button type="button" id="stop-btn" class="btn btn-stop hidden">
+                                <i class="fas fa-stop"></i>
+                                Stop Recording
+                            </button>
+                            <button type="button" id="play-btn" class="btn btn-play hidden">
+                                <i class="fas fa-play"></i>
+                                Preview
+                            </button>
+                            <button type="button" id="reset-btn" class="btn btn-secondary hidden">
+                                <i class="fas fa-redo"></i>
+                                Re-record
+                            </button>
+                        </div>
+                    </div>
+
+                    <audio id="audio-preview" class="audio-preview hidden" controls></audio>
+
+                    <button type="submit" id="submit-btn" class="btn btn-primary hidden">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </section>
+
+            <!-- Success Message -->
+            <div id="success-message" class="success-message hidden">
+                <i class="fas fa-check-circle"></i>
+                <h3>Message Sent Successfully!</h3>
+                <p>Your encouraging message will play at <span id="success-distance"></span> during the run.</p>
+                <button id="send-another" class="btn btn-secondary">
+                    <i class="fas fa-plus"></i>
+                    Send Another Message
+                </button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Made with ❤️ for runners and their support networks</p>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

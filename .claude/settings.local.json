@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild:*)",
+      "Bash(node:*)",
+      "Bash(curl:*)",
+      "Bash(open \"http://localhost:3000/share/65053d7a-1cb7-4784-b1b2-7002c7bc4c25\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

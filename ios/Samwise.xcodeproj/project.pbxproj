@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01000001000000000000001 /* SamwiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000001 /* SamwiseApp.swift */; };
+		01000001000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000002 /* ContentView.swift */; };
+		01000001000000000000003 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000003 /* Run.swift */; };
+		01000001000000000000004 /* RunViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000004 /* RunViewModel.swift */; };
+		01000001000000000000005 /* ActiveRunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000005 /* ActiveRunView.swift */; };
+		01000001000000000000006 /* RunSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000006 /* RunSetupView.swift */; };
+		01000001000000000000007 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000007 /* APIService.swift */; };
+		01000001000000000000008 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000008 /* AudioManager.swift */; };
+		01000001000000000000009 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000009 /* LocationManager.swift */; };
+		01000001000000000000010 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000010 /* colors.swift */; };
+		01000001000000000000011 /* spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000011 /* spacing.swift */; };
+		01000001000000000000012 /* SamwiseAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000012 /* SamwiseAnimations.swift */; };
+		01000001000000000000013 /* SamwiseIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000013 /* SamwiseIcons.swift */; };
+		01000001000000000000014 /* SamwiseTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000014 /* SamwiseTypography.swift */; };
+		01000001000000000000015 /* SamwiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000015 /* SamwiseButton.swift */; };
+		01000001000000000000016 /* SamwiseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000016 /* SamwiseCard.swift */; };
+		01000001000000000000017 /* SamwiseProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000017 /* SamwiseProgress.swift */; };
+		01000001000000000000018 /* SamwiseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000018 /* SamwiseTextField.swift */; };
+		01000001000000000000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000019 /* Assets.xcassets */; };
+		01000001000000000000020 /* Preview Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000020 /* Preview Assets.xcassets */; };
+		01000001000000000000021 /* FriendsPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000022 /* FriendsPlaceholderView.swift */; };
+		A429824E2E5CE2AB000E73B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02000001000000000000020 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02000001000000000000001 /* SamwiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseApp.swift; sourceTree = "<group>"; };
+		02000001000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02000001000000000000003 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		02000001000000000000004 /* RunViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunViewModel.swift; sourceTree = "<group>"; };
+		02000001000000000000005 /* ActiveRunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRunView.swift; sourceTree = "<group>"; };
+		02000001000000000000006 /* RunSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSetupView.swift; sourceTree = "<group>"; };
+		02000001000000000000007 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		02000001000000000000008 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		02000001000000000000009 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		02000001000000000000010 /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		02000001000000000000011 /* spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spacing.swift; sourceTree = "<group>"; };
+		02000001000000000000012 /* SamwiseAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseAnimations.swift; sourceTree = "<group>"; };
+		02000001000000000000013 /* SamwiseIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseIcons.swift; sourceTree = "<group>"; };
+		02000001000000000000014 /* SamwiseTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseTypography.swift; sourceTree = "<group>"; };
+		02000001000000000000015 /* SamwiseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseButton.swift; sourceTree = "<group>"; };
+		02000001000000000000016 /* SamwiseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseCard.swift; sourceTree = "<group>"; };
+		02000001000000000000017 /* SamwiseProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseProgress.swift; sourceTree = "<group>"; };
+		02000001000000000000018 /* SamwiseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamwiseTextField.swift; sourceTree = "<group>"; };
+		02000001000000000000019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02000001000000000000020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02000001000000000000021 /* RunHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunHistoryView.swift; sourceTree = "<group>"; };
+		02000001000000000000022 /* FriendsPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPlaceholderView.swift; sourceTree = "<group>"; };
+		03000001000000000000001 /* Samwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Samwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04000001000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05000001000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				05000001000000000000002 /* Samwise */,
+				05000001000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05000001000000000000002 /* Samwise */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000001 /* SamwiseApp.swift */,
+				02000001000000000000002 /* ContentView.swift */,
+				05000001000000000000004 /* Models */,
+				05000001000000000000005 /* ViewModels */,
+				05000001000000000000006 /* Views */,
+				05000001000000000000007 /* Services */,
+				05000001000000000000008 /* Assets */,
+				05000001000000000000009 /* Design */,
+				02000001000000000000019 /* Assets.xcassets */,
+				05000001000000000000010 /* Preview Content */,
+			);
+			path = Samwise;
+			sourceTree = "<group>";
+		};
+		05000001000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03000001000000000000001 /* Samwise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05000001000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000003 /* Run.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05000001000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000004 /* RunViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		05000001000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000005 /* ActiveRunView.swift */,
+				02000001000000000000006 /* RunSetupView.swift */,
+				02000001000000000000021 /* RunHistoryView.swift */,
+				02000001000000000000022 /* FriendsPlaceholderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05000001000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000007 /* APIService.swift */,
+				02000001000000000000008 /* AudioManager.swift */,
+				02000001000000000000009 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		05000001000000000000008 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000010 /* colors.swift */,
+				02000001000000000000011 /* spacing.swift */,
+				02000001000000000000012 /* SamwiseAnimations.swift */,
+				02000001000000000000013 /* SamwiseIcons.swift */,
+				02000001000000000000014 /* SamwiseTypography.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		05000001000000000000009 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				05000001000000000000011 /* Components */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		05000001000000000000010 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000020 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05000001000000000000011 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				02000001000000000000015 /* SamwiseButton.swift */,
+				02000001000000000000016 /* SamwiseCard.swift */,
+				02000001000000000000017 /* SamwiseProgress.swift */,
+				02000001000000000000018 /* SamwiseTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06000001000000000000001 /* Samwise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06000001000000000000002 /* Build configuration list for PBXNativeTarget "Samwise" */;
+			buildPhases = (
+				06000001000000000000003 /* Sources */,
+				04000001000000000000001 /* Frameworks */,
+				06000001000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Samwise;
+			productName = Samwise;
+			productReference = 03000001000000000000001 /* Samwise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07000001000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					06000001000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 07000001000000000000002 /* Build configuration list for PBXProject "Samwise" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05000001000000000000001;
+			productRefGroup = 05000001000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06000001000000000000001 /* Samwise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06000001000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429824E2E5CE2AB000E73B4 /* Preview Assets.xcassets in Resources */,
+				01000001000000000000019 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06000001000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01000001000000000000001 /* SamwiseApp.swift in Sources */,
+				01000001000000000000002 /* ContentView.swift in Sources */,
+				01000001000000000000003 /* Run.swift in Sources */,
+				01000001000000000000004 /* RunViewModel.swift in Sources */,
+				01000001000000000000005 /* ActiveRunView.swift in Sources */,
+				01000001000000000000006 /* RunSetupView.swift in Sources */,
+				01000001000000000000007 /* APIService.swift in Sources */,
+				01000001000000000000008 /* AudioManager.swift in Sources */,
+				01000001000000000000009 /* LocationManager.swift in Sources */,
+				01000001000000000000010 /* colors.swift in Sources */,
+				01000001000000000000011 /* spacing.swift in Sources */,
+				01000001000000000000012 /* SamwiseAnimations.swift in Sources */,
+				01000001000000000000013 /* SamwiseIcons.swift in Sources */,
+				01000001000000000000014 /* SamwiseTypography.swift in Sources */,
+				01000001000000000000015 /* SamwiseButton.swift in Sources */,
+				01000001000000000000016 /* SamwiseCard.swift in Sources */,
+				01000001000000000000017 /* SamwiseProgress.swift in Sources */,
+				01000001000000000000018 /* SamwiseTextField.swift in Sources */,
+				01000001000000000000020 /* Preview Assets.xcassets in Sources */,
+				01000001000000000000021 /* FriendsPlaceholderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06000001000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Samwise/Preview Content\"";
+				DEVELOPMENT_TEAM = 9WA76V74TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanreibeling.samwise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06000001000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Samwise/Preview Content\"";
+				DEVELOPMENT_TEAM = 9WA76V74TN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seanreibeling.samwise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07000001000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07000001000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06000001000000000000002 /* Build configuration list for PBXNativeTarget "Samwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06000001000000000000005 /* Debug */,
+				06000001000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07000001000000000000002 /* Build configuration list for PBXProject "Samwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07000001000000000000003 /* Debug */,
+				07000001000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07000001000000000000001 /* Project object */;
+}
