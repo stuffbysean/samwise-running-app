@@ -1,0 +1,50 @@
+name: Backend CI
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths: [ 'backend/**' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ 'backend/**' ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: backend/package-lock.json
+    
+    - name: Install dependencies
+      run: |
+        cd backend
+        npm ci
+    
+    - name: Run linting
+      run: |
+        cd backend
+        npm run lint --if-present
+    
+    - name: Run tests
+      run: |
+        cd backend
+        npm test --if-present
+      env:
+        NODE_ENV: test
+        MONGODB_URI: mongodb://localhost:27017/samwise-test
+    
+    - name: Check for security vulnerabilities
+      run: |
+        cd backend
+        npm audit --audit-level moderate
